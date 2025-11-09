@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.quizapp.R;
+import easy.tuto.myquizapplication.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
