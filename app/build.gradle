@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'easy.tuto.myquizapplication'
+    namespace 'com.project.quizdobahia'
     compileSdk 34
 
     defaultConfig {
-        applicationId "easy.tuto.myquizapplication"
+        applicationId "com.project.quizdobahia"
         minSdk 24
         targetSdk 34
         versionCode 1
