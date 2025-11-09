@@ -32,12 +32,25 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/total_question" />
 
+    <ImageView
+        android:id="@+id/bahia_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Escudo do Esporte Clube Bahia"
+        android:src="@drawable/simbolobahia"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
     <LinearLayout
         android:id="@+id/choices_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/bahia_logo"
         android:orientation="vertical"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:padding="8dp">
 
     <Button
