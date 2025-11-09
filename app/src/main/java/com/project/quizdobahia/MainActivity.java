@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         } else {
             respostaSelecionada = botaoClicado.getText().toString();
-            botaoClicado.setBackgroundColor(Color.MAGENTA);
+            botaoClicado.setBackgroundColor(Color.BLUE);
         }
     }
 
